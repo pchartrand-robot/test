@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-
-  </head>
-  <body>
-
-// HTML
-<form onSubmit="WriteToFile(this)">
-<label>Type your first name:</label>
-<input type="text" name="FirstName" id="firstName" size="20">
-
-<label>Type your last name: </abel>
-<input type="text" name="LastName" id="lastName" size="20">
-
-<input type="submit" value="submit">
-</form>
 <script>
 function WriteToFile(passForm) {
 
@@ -31,5 +17,18 @@ s.writeline("-----------------------------");
 s.Close();
 }
 </script>
+  </head>
+  <body>
+
+// HTML
+<form onSubmit="WriteToFile(this)">
+<label>Type your first name:</label>
+<input type="text" name="FirstName" id="firstName" size="20">
+
+<label>Type your last name: </abel>
+<input type="text" name="LastName" id="lastName" size="20">
+
+<input type="submit" value="submit">
+</form>
 </body>
 </html>
